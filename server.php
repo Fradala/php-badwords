@@ -10,6 +10,10 @@
     
 ?>
 
+<p>
+    la parola scritta è: <?php echo $parola; ?>
+</p>
+
 
 
 
