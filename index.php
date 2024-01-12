@@ -12,9 +12,27 @@
     </h1>
 
     <form action="./server.php" method="GET">
-        
+        <label for="text">Inserici parola da eliminare</label>
+        <input type="text" name="parola" id="parola">
     </form>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum hic quis cumque voluptatibus aspernatur labore 
+    </p>
+
+   
+   <?php
+
+        echo "lunghezza: " . strlen($p) . "caratteri";
+
+   ?>
+
+   
+
+    
 
     
 </body>
 </html>
+
