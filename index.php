@@ -22,11 +22,7 @@
     </p>
 
    
-   <?php
-
-        echo "lunghezza: " . strlen($p) . "caratteri";
-
-   ?>
+   
 
    
 
