@@ -16,12 +16,14 @@
         <input type="text" name="parola" id="parola">
     </form>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Ipsum hic quis cumque voluptatibus aspernatur labore 
-    </p>
+    
 
-   
+   <?php
+        echo $testo="la barca di mia nonna <br>"; 
+        echo "Lunghezza: " . strlen($testo) . " caratteri";
+        $testoNuovo=str_replace('$testo', '$parola' , '***');
+       
+   ?>
    
 
    
